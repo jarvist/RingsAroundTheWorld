@@ -1,0 +1,47 @@
+#######################################
+        R.I.N.G.S. options file       #
+#######################################
+ PBC             .true.               #
+ Frac            .false.              #
+ g(r)            .true.              #
+ S(q)            .true.              #
+ S(k)            .true.              #
+ gfft(r)         .false.              #
+ MSD             .false.              #
+ atMSD           .false.              #
+ Bonds           .true.               #
+ Angles          .false.              #
+ Rings           .true.               #
+   ----- ! Ring statistics options ! -----
+ Species           0                  #
+ ABAB            .false.              #
+ Rings0          .false.              #
+ Rings1          .false.              #
+ Rings2          .false.              #
+ Rings3          .false.               #
+ Rings4          .false.               #
+ Prim_Rings      .false.               #
+ Str_Rings       .false.              #
+ BarycRings      .false.              #
+ Prop-1          .false.              #
+ Prop-2          .false.              #
+ Prop-3          .false.              #
+ Prop-4          .false.              #
+ Prop-5          .false.              #
+    ---------------------------------------
+ Vacuum          .false.              #
+    #######################################
+             Outputting options           #
+    #######################################
+ Evol            .false.              #
+ Dxout           .false.              #
+ -- ! OpenDX visualization options !  --
+ RadOut          .false.              #
+ RingsOut        .false.              #
+ DRngOut         .false.              #
+ VoidsOut        .false.              #
+ TetraOut        .false.              #
+ TrajOut         .false.              #
+ --------------------------------------- 
+ Output        my-output.out          #
+    ####################################### 
