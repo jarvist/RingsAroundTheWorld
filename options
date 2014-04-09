@@ -3,15 +3,15 @@
 #######################################
  PBC             .true.               #
  Frac            .false.              #
- g(r)            .true.              #
- S(q)            .true.              #
- S(k)            .true.              #
- gfft(r)         .false.              #
+ g(r)            .true.               # RDF, total g(r) and G(r)
+ S(q)            .false.               # Structure Factors by FFT 
+ S(k)            .false.              # Structure Factors by Debye equation / single atom correlations
+ gfft(r)         .false.              # RDF via FFT of the structure factor above - S(k)
  MSD             .false.              #
  atMSD           .false.              #
- Bonds           .true.               #
+ Bonds           .false.               #
  Angles          .false.              #
- Rings           .true.               #
+ Rings           .false.               #
    ----- ! Ring statistics options ! -----
  Species           0                  #
  ABAB            .false.              #
